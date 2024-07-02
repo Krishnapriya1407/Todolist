@@ -20,20 +20,17 @@
 	align-items: center;
 	width: 100%;
 	height: 80vh;
-	/* background-color: rgb(182, 152, 160); */
 }
-
 h1 ,h2{
 	color: rgb(5, 5, 5);
 	text-align: center;
     font-family: verdana;
 }
-
     </style>
 </head>
+	
 <body>
     <div class="div">
-        
         <h1> TODO LIST </h1>
             <input type="text" id="list">
         <button id="btn" onclick="add()">ADD</button>
@@ -45,6 +42,7 @@ h1 ,h2{
                     <button onclick="onClick(event)" >DELETE</button>   
                 </li>
             </ul>
+	    
             <script>
                 var listitem=document.getElementById("list")
                 var ui=document.getElementById("ui")
